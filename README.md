@@ -20,18 +20,20 @@ List IAM user
 
 aws iam list-users --profile <profile-name>
 
-# Prepare your resource blocks : provider.tf, main.tf and Variables.tf
-# Refer for syntax from _https://registry.terraform.io/namespaces/hashicorp for the 32 providers, in our case its aws
-# In my Variable.tf file i defined my region and profile
+Prepare your resource blocks : provider.tf, main.tf and Variables.tf
+Refer for syntax from _https://registry.terraform.io/namespaces/hashicorp for the 32 providers, in our case its aws
+In my Variable.tf file i defined my region and profile
 
 
-# Format your terraform files
+Format your terraform files
+
 terraform fmt
 
-# Initialize directory
+Initialize directory
+
 terraform init
 
-# 2 options to import users into Terraform
+# Options to import users into Terraform
     # Option 1
       # Refer to Terraform documentation https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_user#import
       # Using Teraform import, import IAM Users using name
