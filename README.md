@@ -7,12 +7,12 @@
   4. Remove imported users with Terraform
 
 
-# Configure your AWS CLI Terminal
+Configure your AWS CLI Terminal
 aws configure --profile <profile-name>
 
-# Provide the Access Key and Secret
-# Configure your Region where your AWS resources would be deployed
-# Configure your output format either to none or my favorite json
+Provide the Access Key and Secret
+Configure your Region where your AWS resources would be deployed
+Configure your output format either to none or my favorite json
 
 
 # List IAM user
